@@ -28,3 +28,22 @@
 // console.log(place);
 // place.pop();
 // console.log(place);
+
+// -------------Solution of Checking Array Membership with ‘includes’--------------
+
+// 3. Checking Array Membership with ‘includes’
+
+// Instructions:
+
+// Create an array of books containing different book.
+
+// Use the includes method to check if the array contains a javascript book.
+
+// Print a message to the console indicating whether the element is present in the array or not.
+// let books = [
+//   "Atomic Habit",
+//   "How to win friend and family",
+//   "Think and grow rich",
+// ];
+// console.log(books.includes("Atomic Habit"));
+// console.log(books.includes("How to win friend and family"));
