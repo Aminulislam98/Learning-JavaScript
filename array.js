@@ -47,3 +47,21 @@
 // ];
 // console.log(books.includes("Atomic Habit"));
 // console.log(books.includes("How to win friend and family"));
+
+// -------------Solution of Checking Array Membership with ‘includes’--------------
+// 4. Checking if it's an Array
+
+// Instructions:
+
+// Create different variables, each containing either an array or a non-array value.
+
+// Now use isArray to check if each variable is an array.
+
+// Print a message to the console indicating whether each variable is an array or not.
+
+// let array = [2, 3, 5, 6];
+// let number = 3;
+// let strings = "Aminul";
+// console.log(Array.isArray(array));
+// console.log(Array.isArray(number));
+// console.log(Array.isArray(strings));
