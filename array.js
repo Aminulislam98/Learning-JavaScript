@@ -48,7 +48,7 @@
 // console.log(books.includes("Atomic Habit"));
 // console.log(books.includes("How to win friend and family"));
 
-// -------------Solution of Checking Array Membership with ‘includes’--------------
+// -------------Solution of Array.isArray--------------
 // 4. Checking if it's an Array
 
 // Instructions:
@@ -65,3 +65,17 @@
 // console.log(Array.isArray(array));
 // console.log(Array.isArray(number));
 // console.log(Array.isArray(strings));
+
+// -------------Solution of  Combining Arrays--------------
+
+// 5. Combining Arrays
+
+// Instructions:
+
+// Create two arrays of your choice.
+// Use the concat method to combine the two arrays into a new array.
+// Print both the original arrays and the combined array using console.log().
+
+// let array = ["Aminul", "Marjiya"];
+// let array1 = [2, 3];
+// console.log(array.concat(array1));
