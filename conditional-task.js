@@ -133,3 +133,33 @@ also, write it using ternary operator.
 // result = num1 > num2 ? num1 * 2 : num1 + num2;
 
 // console.log(result);
+
+/***
+
+Ticket fare Calculator
+    - Children (age < 10): free
+    - Students get a 50% discount
+    - Senior citizens (age >= 60) gets a 15% Discount
+    - Otherwise Regular ticket fare 800 tk
+*/
+
+let age = 10;
+let isStudent = true;
+let ticketPrice = 800;
+if (age < 10) {
+  console.log("Traveling Free for under 10 year old");
+} else if (age >= 60) {
+  console.log("Congratulation! You are eligible for 15% discount!");
+  const discount = (ticketPrice * 15) / 100;
+  const totalPay = ticketPrice - discount;
+  console.log(`You have to pay after discount ${totalPay}`);
+} else if (isStudent) {
+  console.log("Congratulation You are eligible for 50% discount");
+  const discount = (ticketPrice * 50) / 100;
+  const totalPay = ticketPrice - discount;
+  console.log(`50% discount for student : please pay ${totalPay}`);
+} else {
+  console.log(
+    `Sorry You are not eligible for any discount. Please Pay ${ticketPrice}`,
+  );
+}
