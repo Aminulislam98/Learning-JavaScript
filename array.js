@@ -79,3 +79,9 @@
 // let array = ["Aminul", "Marjiya"];
 // let array1 = [2, 3];
 // console.log(array.concat(array1));
+
+let array = ["apple", "banana", "Pineapple"];
+for (const fruits of array) {
+  console.log(fruits);
+  console.log("Mm Yummy, I need more");
+}
