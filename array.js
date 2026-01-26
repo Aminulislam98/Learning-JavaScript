@@ -80,8 +80,55 @@
 // let array1 = [2, 3];
 // console.log(array.concat(array1));
 
-let array = ["apple", "banana", "Pineapple"];
-for (const fruits of array) {
-  console.log(fruits);
-  console.log("Mm Yummy, I need more");
+// let array = ["apple", "banana", "Pineapple"];
+// for (const fruits of array) {
+//   console.log(fruits);
+//   console.log("Mm Yummy, I need more");
+// }
+
+/***
+
+"I will invest at least 6 hrs every single day for next 60 days!" this message 60 times. So display this.
+
+ */
+
+/*programming hero*/
+
+// let array = 0;
+// while (array <= 60) {
+//   console.log(
+//     "I will invest at least 60 hrs every single day for next 60 days! ",
+//     array++,
+//   );
+// }
+
+/***
+
+Subtask-1:
+
+Find all the odd numbers from 61 to 100.
+
+ */
+// let array = 61;
+// while (array <= 100) {
+//   if (array % 2 !== 0) {
+//     console.log("this is odd number", array);
+//   }
+//   array++;
+// }
+
+/***
+
+Subtask-2:
+
+Find all the even numbers from 78 to 98.
+ */
+/*programming hero*/
+
+let array = 78;
+while (array <= 98) {
+  if (array % 2 === 0) {
+    console.log("this is even number", array);
+  }
+  array++;
 }
