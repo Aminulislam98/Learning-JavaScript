@@ -125,10 +125,10 @@ Find all the even numbers from 78 to 98.
  */
 /*programming hero*/
 
-let array = 78;
-while (array <= 98) {
-  if (array % 2 === 0) {
-    console.log("this is even number", array);
-  }
-  array++;
-}
+// let array = 78;
+// while (array <= 98) {
+//   if (array % 2 === 0) {
+//     console.log("this is even number", array);
+//   }
+//   array++;
+// }
