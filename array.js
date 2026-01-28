@@ -498,13 +498,13 @@ Task-5:
 
 Capitalize Every first Letter of each word in a String
 */
-let text = "hello world from javascript";
-let words = text.split(" ");
+// let text = "hello world from javascript";
+// let words = text.split(" ");
 
-let results = [];
-for (const word of words) {
-  let capitalWorld = word.charAt(0).toUpperCase() + word.slice(1);
-  results.push(capitalWorld);
-}
-let finalResult = results.join(" ");
-console.log(finalResult);
+// let results = [];
+// for (const word of words) {
+//   let capitalWorld = word.charAt(0).toUpperCase() + word.slice(1);
+//   results.push(capitalWorld);
+// }
+// let finalResult = results.join(" ");
+// console.log(finalResult);
