@@ -428,3 +428,83 @@ display odd number from 55 to 85 and skip the numbers divisible by 5.
 // key: age | type:  number
 // key: city | type:  string
 // key: isStudent | type:  boolean
+
+// Task-1:
+
+// Count how many times a string has the letter a
+// let fruits = "banana";
+// let count = 0;
+// for (const fruit of fruits) {
+//   if (fruit == "a") {
+//     count++;
+//   }
+// }
+// console.log(count);
+
+// Task-2:
+
+// Count how many times a string has the letter a or A
+
+// let fruits = "BAnana";
+// let countOfLowerLetter = 0;
+// let countOfUpperLetter = 0;
+// for (const fruit of fruits) {
+//   if (fruit === "a") {
+//     countOfLowerLetter++;
+//   } else if (fruit === "A") {
+//     countOfUpperLetter++;
+//   }
+// }
+// console.log(
+//   "UpperLetter:",
+//   countOfUpperLetter,
+//   "LowerLatter:",
+//   countOfLowerLetter,
+// );
+
+// Task-3:
+// Check whether a string contains all the vowels a, e, i, o, u
+// let text = "education";
+// text = text.toLowerCase();
+// let vowels = ["a", "e", "i", "o", "u"];
+// let hasVowel = true;
+// for (const vowel of vowels) {
+//   if (!text.includes(vowel)) {
+//     hasVowel = false;
+//     break;
+//   }
+// }
+// console.log(hasVowel);
+
+// Task-4:
+
+// If a given string has either x, replace x by y. if the given string has X, replace it by Y.
+
+// If a given string has either x, replace x by y.
+// If the given string has X, replace it by Y.
+
+// let text = "xX box";
+// if (text.includes("x")) {
+//   text = text.replace(/x/g, "y");
+// }
+// if (text.includes("X")) {
+//   text = text.replace(/X/g, "Y");
+// }
+// console.log(text);
+
+/* 
+Hint: You should be able to check whether x or X exists. After that, search online how to replace a character in a string.
+Task-5:
+
+Capitalize Every first Letter of each word in a String
+*/
+let text = "hello world from javascript";
+let words = text.split(" ");
+
+let results = [];
+for (const word of words) {
+  let capitalWorld = word.charAt(0).toUpperCase() + word.slice(1);
+  results.push(capitalWorld);
+}
+let finalResult = results.join(" ");
+console.log(finalResult);
