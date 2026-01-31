@@ -640,3 +640,68 @@ Output:
 // ];
 // array[1][0] = 99;
 // console.log(array);
+
+// Task-1
+
+// Take four parameters. Multiply the four numbers and then return the result
+// function task1(a, b, c, d) {
+//   return a * b * c * d;
+// }
+// const result = task1(2, 4, 6, 7);
+// console.log(result);
+
+// Task-2
+
+// Take a number if the number is odd multiply it by 2 and return the result. If the number is even divide it by two and return the result.
+// function task2(num) {
+//   if (num % 2 !== 0) {
+//     return num * 2;
+//   } else {
+//     return num / 2;
+//   }
+// }
+// const result = task2(2);
+// console.log(result);
+
+// Task-3
+
+// Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
+// function make_avg(num, size) {
+//   console.log("Size of this value: ", size);
+//   let averageValue = 0;
+//   for (const arr of num) {
+//     averageValue += arr;
+//   }
+//   const finalAvgValue = averageValue / size;
+//   return finalAvgValue;
+// }
+// let array = [3, 4, 5, 6, 7, 8];
+// let result = make_avg(array, array.length);
+// console.log(result);
+
+// Task-4
+
+// Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.
+
+// function count_zero(str) {
+//   let totalBinaryString = 0;
+//   for (const strNum of str) {
+//     if (strNum === "0") {
+//       totalBinaryString++;
+//     }
+//   }
+//   return totalBinaryString;
+// }
+// let result = count_zero(
+//   "01010101010101010100101010001010101010010101010101011001",
+// );
+// console.log("Total 0 is: ", result);
+
+// Task-5
+
+// Write a function called odd_even() which takes an integer value and tells whether this value is even or odd. If even return Even. If odd return Odd
+function odd_even(integerValue) {
+  return integerValue % 2 === 0 ? "Even" : "Odd";
+}
+let result = odd_even(6);
+console.log(result);
