@@ -788,3 +788,23 @@ Output:
 
 // Generate a random number between 10 to 20.
 // console.log(Math.floor(Math.random() * (20 - 10 + 1) + 10));
+// function maxOfThree(num, num1, num2) {
+//   if (num >= num1) {
+//     return num >= num2 ? num : num2;
+//   } else if (num1 >= num) {
+//     return num1 >= num2 ? num1 : num2;
+//   }
+// }
+// console.log(maxOfThree(111, 111, 111));
+// let numbers = [34, 32, 54, 56, 7, 12, 23, 3, 4, 45, 6, 1];
+// let result = minNumber(numbers);
+// function minNumber(numbers) {
+//   let minNumber = 0;
+//   for (const number of numbers) {
+//     if (number < numbers[0]) {
+//       minNumber = number;
+//     }
+//   }
+//   return minNumber;
+// }
+// console.log(result);
